@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/safaezouadi2023/myapp.git/static/css/main.c17863fb.css",
+    "main.js": "/safaezouadi2023/myapp.git/static/js/main.a85766ee.js",
+    "index.html": "/safaezouadi2023/myapp.git/index.html",
+    "main.c17863fb.css.map": "/safaezouadi2023/myapp.git/static/css/main.c17863fb.css.map",
+    "main.a85766ee.js.map": "/safaezouadi2023/myapp.git/static/js/main.a85766ee.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c17863fb.css",
+    "static/js/main.a85766ee.js"
+  ]
+}
