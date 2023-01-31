@@ -1,0 +1,140 @@
+.h1{
+	position: relative;
+	padding: 10px 30px;
+	margin: 45px 0;
+	color: #0d0d0e;
+	text-decoration: none;
+	font-size: 50px;
+	text-transform: uppercase;
+	transition: 0.5s;
+	text-align: center;
+  }
+  .h1::before{
+	content: "";
+	position: absolute;
+	top: -1px;
+	left: -1px;
+	width: 10px;
+	height: 10px;
+	border-top: 2px solid #bd9dfa;
+	border-left: 2px solid #bd9dfa;
+	transition: 0.5s;
+	transition-delay: 0.5s;
+  }
+  .h1::after{
+	content: "";
+	position: absolute;
+	background-origin: -1px;
+	right: -1px;
+	width: 10px;
+	height: 10px;
+	border-right :  2px  solid #bd9dfa;
+	border-bottom: 2px solid#bd9dfa;
+	transition: 0.5s;
+	transition: 0.5s;
+  }
+  .h1:hover{
+	background-color: #bd9dfa;
+	color: black;
+	box-shadow:0 0 50px#bd9dfa;
+	transition-delay: 0.5;
+  }
+  .container{
+	width: 45%;
+  
+	height: auto;
+	padding: 10px;
+	border-radius: 8px;
+	box-shadow: 12px 12px 12px #755ccf,
+	-12px -12px;
+	margin: 150px auto;
+	text-decoration: underline;
+  }
+	.add{
+		color: blueviolet;
+		font-style: italic;
+		font-size: 25px;
+		margin-left: 50px;
+	}
+	.bt{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		font-size: 14px;
+		width: 80px;
+		height: 32px;
+		text-transform: uppercase;
+		background-color: black;
+		color: white;
+		margin: 0 auto;
+		border-radius: 30px;
+		transition: all .3s ease-out;
+	}
+		.bt:hover {
+			background-color: var(--light-color);
+			color: inherit;
+		}
+	
+	.input{
+		font-size: 30px;
+		caret-color: #755ccf;
+		margin-left: 50px;
+		margin-top: 11px;
+	}
+	.add{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		font-size: 30px;
+		width: 95px;
+		height: 30px;
+		text-transform: uppercase;
+		background-color: black;
+		color: white;
+		margin-left: 450px;
+		border-radius: 30px;
+		transition: all .3s ease-out;
+		text-decoration: solid;
+		text-align: center;
+		margin-top: 20px;
+	}
+	.add:hover {
+		background-color: var(--light-color);
+		color: inherit;
+	}
+	.serach{
+	margin: auto;
+	position: relative;
+	width: 300px;
+	height: 42px;
+	border: 4px solid #2980b9;
+	padding: 0px 10px;
+	border-radius: 50px;
+	
+	}
+	.backghround{
+		background: linear-gradient(90deg,#2b6a97 ,#24175fd8);
+		background-size: 200% 200%;
+		animation: anim 2.5s infinite ease-in-out
+	}
+	@keyframes anim{
+		0%{
+			background-position: 0 50%;
+		}
+		50%{
+			background-position: 100% 50%;
+		}
+		100%{
+			background-position: 0 50%;
+		}
+	}
+	body{
+		background-color: #bd9dfa;
+	}
+	
+
+
+
+
+
+	
